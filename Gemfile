@@ -7,6 +7,12 @@ gem "rails", "~> 7.1.2"
 
 gem 'devise', '~> 4.8'
 
+gem 'devise-two-factor', '~> 4.0'
+gem 'dotenv-rails'
+gem 'rqrcode', '~> 2.1'
+
+# Use Sass to process CSS
+gem "sassc-rails"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
